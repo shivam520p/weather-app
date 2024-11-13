@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <div class="content">
+            Welcome to My Weather App
+        </div>
+        <div class="card">
+            <div class="search">
+                <input type="text" id="textInput" placeholder="Enter City Name">
+                <button><img src="images/search.png"></button>
+            </div>
+            <div class="weather">
+                <img src="images/clouds.png" class="weather-icon">
+                <div>
+                    <h1 class="temp">0°C</h1>
+                    <h2 class="city">Location</h2>
+                    <div class="last-up">
+                        LastUpdate:<h3 class="lastupdate">00:00:00</h3>
+                    </div>
+                </div>
+            </div>
+                <div class="details">
+                    <div class="col-1">
+                        <div class="col">
+                            <img src="images/humidity.png" >
+                            <div>
+                                <p class="humidity">00%</p>
+                                <p>Humidity</p>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <img src="images/humidity.png" >
+                            <div>
+                                <p class="feel_like">00°C</p>
+                                <p>Feels Like</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <div class="col">
+                            <img src="images/wind.png" >
+                            <div>
+                                <p class="wind">0Km/h</p>
+                                <p>wind Speed</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <img src="images/wind.png" >
+                            <div>
+                                <p class="condition">None</p>
+                                <p>Condition</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
